@@ -1,3 +1,7 @@
+/*
+ I updated last exe, add using level to calculate allowence
+*/
+
 import java.util.Scanner;
 class Salary {
     double DA = 0.12d;
