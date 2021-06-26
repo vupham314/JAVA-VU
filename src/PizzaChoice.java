@@ -1,5 +1,3 @@
-package exeArray;
-
 import java.util.Scanner;
 
 class PizzaChoice{
