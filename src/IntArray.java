@@ -1,4 +1,3 @@
-package exeArray;
 import java.util.*;
 
 public class IntArray {
