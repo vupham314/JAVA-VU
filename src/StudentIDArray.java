@@ -32,7 +32,7 @@ public class StudentIDArray {
             System.out.println("null");
         }
         for(int x = 0; x < this.ID.size(); x++){
-            System.out.printf("%3d   %10s   %1f", this.ID.get(x), this.name.get(x), this.mark.get(x));
+            System.out.printf("%3d   %10s   %.2f", this.ID.get(x), this.name.get(x), this.mark.get(x));
             System.out.println();
         }
         menu();
