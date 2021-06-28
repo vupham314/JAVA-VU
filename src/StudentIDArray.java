@@ -3,9 +3,9 @@ import java.util.*;
 public class StudentIDArray {
     Scanner scn = new Scanner(System.in);
 
-    var ID = new ArrayList<Integer>();
-    var name = new ArrayList<String>();
-    var mark = new ArrayList<Float>();
+    ArrayList<Integer> ID = new ArrayList<Integer>();
+    ArrayList<String> name = new ArrayList<String>();
+    ArrayList<Float> mark = new ArrayList<Float>();
 
     void menu(){
         System.out.print("""
