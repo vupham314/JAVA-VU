@@ -24,6 +24,7 @@ public class StudentIDArray {
                 return;
             }
         }
+        menu();
 
     }
 
@@ -35,7 +36,6 @@ public class StudentIDArray {
             System.out.printf("%3d   %10s   %.2f", this.ID.get(x), this.name.get(x), this.mark.get(x));
             System.out.println();
         }
-        menu();
     }
 
     void search_student(){
@@ -46,7 +46,6 @@ public class StudentIDArray {
                 System.out.println(this.ID.get(x)+this.name.get(x)+this.mark.get(x));
             }
         }
-        menu();
     }
 
     void add_student(){
@@ -62,7 +61,6 @@ public class StudentIDArray {
         float mark = Float.parseFloat(scn.nextLine());
         this.mark.add(mark);
 
-        menu();
     }
 
     public static void main(String[] args) {
