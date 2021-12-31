@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style_index.css">
+    <title>admin</title>
+</head>
+<body>
+<div class="container">
+    <div class="push-news__form">
+        <label for="topic_selector" id="topic__heading">Topic</label>
+        <select name="cars" id="topic_selector">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <label for="title__input" id="title__heading">Title</label>
+        <input type="text" id="title__input">
+        <label for="author__input">author</label>
+        <input type="text" id="author__input">
+        <label for="source__input" id="source__heading">source</label>
+        <input type="text" id="source__input">
+        <label for="content__input" id="content__heading">content</label>
+        <textarea id="content__input"></textarea>
+        <label for="img__input">image</label>
+        <input type="text" id="img__input">
+        <div id="new--public__heading">public new ?</div>
+        <label>
+            <input type="radio" id="yes" name="fav_language" value="yes">
+            <label for="yes">yes</label><br>
+            <input type="radio" id="no" name="fav_language" value="no">
+            <label for="no">no</label><br>
+        </label>
+        <div class="xxx"><button><a href="./pages/waitingNew.html">watch waiting new</a></button>
+        </div>
+        <div onclick="pushNew(newsApi)" class="submit-btn">
+            add new
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="./js/main.js"></script>
+</html>
