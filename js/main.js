@@ -1,4 +1,4 @@
-const newsApi = "https://61ce76d17067f600179c5ed4.mockapi.io/newList"
+const newsApi = "https://61d501d78df81200178a8e99.mockapi.io/newLists"
 
 async function getDataNews(newsApi) {
     return await fetch(newsApi).then(res=>res.json())
